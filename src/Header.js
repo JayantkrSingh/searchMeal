@@ -18,7 +18,7 @@ export default function Header () {
     <AppBar position="fixed" className={classes.appBar}>
       <Toolbar>
         <Typography variant="h6" noWrap>
-          Recipe
+          Food Recipe
         </Typography>
       </Toolbar>
     </AppBar>

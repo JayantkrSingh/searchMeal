@@ -28,8 +28,6 @@ export default function Dashboard() {
   let { id } = useParams();
 
   useEffect(() => {
-
-    console.log("null, ", id);
     fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=" + id, {
       method: "GET",
     }).then(response => response.json())
@@ -37,7 +35,6 @@ export default function Dashboard() {
         setLoading(false);
         if (data.meals && data.meals.length === 1) {
           setMeal(data.meals[0]);
-          console.log("data.meals[0], ", data.meals[0]);
         }
       }).catch(err => {
         setLoading(false);
