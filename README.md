@@ -1,5 +1,5 @@
 # Getting Started with Curiocity-Webpage App
-# Run command to install all dependent libraries
+
 ### `npm install`
 
 ## Available Scripts
