@@ -1,8 +1,10 @@
 # Getting Started with Curiocity-Webpage App
 
-### `npm install`
 
 ## Available Scripts
+
+Install dependencies of project
+### `npm install`
 
 To start the project server run
 ### `npm start`
